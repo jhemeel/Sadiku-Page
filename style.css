@@ -28,7 +28,7 @@ font-size: clamp(1rem, 0.75rem+1.25vw, 2rem);
    max-width: 100%;
    width:100%;
    position:fixed;
-   top:100px;
+   top:70px;
    z-index: -1;
    min-height: 100vh;
    opacity: 0.5;
@@ -45,7 +45,7 @@ box-shadow: 3px 3px 5px #ccc;
 .navbar{
   width:100%;
   margin: 0 auto;
-  min-height:100px;
+  min-height:70px;
   display: flex;
   justify-content :space-between;
   align-items: center;
@@ -81,10 +81,10 @@ box-shadow: 3px 3px 5px #ccc;
   display:noe;
 }
 .dash{
-  width: 40px;
-  height:5px;
+  width: 30px;
+  height:3px;
   background-color:var(--inkNav);
-  margin-top: 8px;
+  margin-top: 5px;
   transition : all 0.5s ease;
 }
 
@@ -114,16 +114,16 @@ box-shadow: 3px 3px 5px #ccc;
 
 }
  .hamburger.active .dash:nth-child(1){
-   transform: translateY(13px) rotate(45deg);
+   transform: translateY(8px) rotate(45deg);
  }
  .hamburger.active .dash:nth-child(3){
-   transform: translateY(-13px) rotate(-45deg);
+   transform: translateY(-8px) rotate(-45deg);
  }
  
  .hamburger.active .dash:nth-child(2){
    opacity: 0;
  }
  .nav-list.active{
-   top:120px;
+   top:70px;
    right:0;
 }
