@@ -89,7 +89,10 @@ box-shadow: 3px 3px 5px #ccc;
 }
 
 
-@media screen and (max-width: 990px){
+@media screen and (max-width: 767px){
+  html{
+    font-size: 14px;
+  }
   .hamburger{
     display: block;
   }
