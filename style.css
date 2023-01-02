@@ -71,6 +71,7 @@ box-shadow: 3px 3px 5px #ccc;
   justify-content:space-between;
   gap: 100px;
   transition : all 0.5s ease;
+z-index: 100;
 
 }
 
